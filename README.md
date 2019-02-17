@@ -12,7 +12,7 @@ Learning React and ES6 by building a Movie Discovery App.
 - [x] Top rated(TV, Movie)
 - [x] Popular(TV, Movie)
 - [x] Airing Today(TV)
-- [ ] TV Show Detail
-- [ ] Movie Detail
-- [ ] Search Movies
+- [x] TV Show Detail
+- [x] Movie Detail
+- [x] Search Movies
 - [ ] Search TV
