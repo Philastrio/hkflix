@@ -1,15 +1,13 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import styled from 'styled-components';
+import React from "react";
+import PropTypes from "prop-types";
+import styled from "styled-components";
 
-const TVPresenter = ({ topRated, popular, airingToday, loading, error }) => null;
+const DetailPresenter = ({ result, loading, error }) => null;
 
-TVPresenter.propTypes = {
-	topRated: PropTypes.array,
-	popular: PropTypes.array,
-	airingToday: PropTypes.array,
-	loading: PropTypes.bool.isRequired,
-	error: PropTypes.string,
+DetailPresenter.propTypes = {
+  result: PropTypes.object,
+  loading: PropTypes.bool.isRequired,
+  error: PropTypes.string
 };
 
-export default TVPresenter;
+export default DetailPresenter;
