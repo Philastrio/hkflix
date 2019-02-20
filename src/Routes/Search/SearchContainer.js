@@ -1,21 +1,32 @@
-import React from "react";
-import SearchPresenter from "./SearchPresenter";
-import { moviesApi, tvApi } from "../../api";
+import React from 'react';
+import SearchPresenter from './SearchPresenter';
+import { moviesApi, tvApi } from '../../api';
 
 export default class extends React.Component {
   state = {
     movieResults: null,
     tvResults: null,
-    searchTerm: "",
+    searchTerm: '',
     loading: false,
     error: null
   };
 
-  handleSubmit = () => {
+  handleSubmit = event => {
+    event.preventDefault();
     const { searchTerm } = this.state;
-    if (searchTerm !== "") {
+    if (searchTerm !== '') {
       this.searchByTerm(searchTerm);
     }
+  };
+
+  updateTerm = event => {
+    const {
+      target: { value }
+    } = event;
+    this.setState({
+      searchTerm: value
+    });
+    console.log(value);
   };
 
   searchByTerm = async () => {
@@ -49,6 +60,7 @@ export default class extends React.Component {
         error={error}
         searchTerm={searchTerm}
         handleSubmit={this.handleSubmit}
+        updateTerm={this.updateTerm}
       />
     );
   }
