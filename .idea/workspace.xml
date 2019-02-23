@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b089a311-98f5-4b3a-ab96-acb70ee2e40c" name="Default Changelist" comment="container 작업중">
-      <change beforePath="$PROJECT_DIR$/src/Components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Header.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Message.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Error.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Routes/Home/HomeContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Routes/Home/HomeContainer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Routes/Home/HomePresenter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Routes/Home/HomePresenter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Routes/TV/TVContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Routes/TV/TVContainer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Routes/Search/SearchPresenter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Routes/Search/SearchPresenter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Routes/TV/TVPresenter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Routes/TV/TVPresenter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn-error.log" beforeDir="false" afterPath="$PROJECT_DIR$/yarn-error.log" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,7 +25,7 @@
         <entry file="file://$PROJECT_DIR$/src/Routes/Home/HomePresenter.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="324">
-              <caret line="9" column="77" selection-start-line="9" selection-start-column="77" selection-end-line="9" selection-end-column="77" />
+              <caret line="11" column="76" selection-start-line="11" selection-start-column="76" selection-end-line="11" selection-end-column="76" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -1447,7 +1451,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -1502,6 +1505,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1583,6 +1587,7 @@
       <workItem from="1550436613297" duration="5000" />
       <workItem from="1550526532061" duration="200000" />
       <workItem from="1550561233463" duration="86000" />
+      <workItem from="1550776053229" duration="76000" />
     </task>
     <task id="LOCAL-00001" summary="React HKFLIX">
       <created>1549923661531</created>
@@ -1651,16 +1656,17 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53170000" />
+    <option name="totallyTimeSpent" value="53246000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17228661" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3286334" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -1669,7 +1675,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="CSS-X-Fire" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3308026" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.33044422" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -1895,7 +1901,7 @@
     <entry file="file://$PROJECT_DIR$/src/Routes/Home/HomePresenter.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
-          <caret line="9" column="77" selection-start-line="9" selection-start-column="77" selection-end-line="9" selection-end-column="77" />
+          <caret line="11" column="76" selection-start-line="11" selection-start-column="76" selection-end-line="11" selection-end-column="76" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
