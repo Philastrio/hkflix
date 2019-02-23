@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b089a311-98f5-4b3a-ab96-acb70ee2e40c" name="Default Changelist" comment="container 작업중">
-      <change afterPath="$PROJECT_DIR$/src/Components/Message.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Error.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Routes/Home/HomeContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Routes/Home/HomeContainer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Routes/Detail/DetailPresenter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Routes/Detail/DetailPresenter.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Routes/Home/HomePresenter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Routes/Home/HomePresenter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Routes/Search/SearchPresenter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Routes/Search/SearchPresenter.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Routes/TV/TVPresenter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Routes/TV/TVPresenter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn-error.log" beforeDir="false" afterPath="$PROJECT_DIR$/yarn-error.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -24,10 +23,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Routes/Home/HomePresenter.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="11" column="76" selection-start-line="11" selection-start-column="76" selection-end-line="11" selection-end-column="76" />
+            <state relative-caret-position="199">
+              <caret line="14" column="3" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
+                <element signature="e#600#2220#0" />
               </folding>
             </state>
           </provider>
@@ -1588,6 +1588,7 @@
       <workItem from="1550526532061" duration="200000" />
       <workItem from="1550561233463" duration="86000" />
       <workItem from="1550776053229" duration="76000" />
+      <workItem from="1550919376671" duration="55000" />
     </task>
     <task id="LOCAL-00001" summary="React HKFLIX">
       <created>1549923661531</created>
@@ -1656,7 +1657,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53246000" />
+    <option name="totallyTimeSpent" value="53301000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1900,10 +1901,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Routes/Home/HomePresenter.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="11" column="76" selection-start-line="11" selection-start-column="76" selection-end-line="11" selection-end-column="76" />
+        <state relative-caret-position="199">
+          <caret line="14" column="3" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#600#2220#0" />
           </folding>
         </state>
       </provider>
