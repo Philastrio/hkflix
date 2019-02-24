@@ -83,3 +83,6 @@ typings/
 package-lock.json
 
 
+.env
+.eslintrc.js
+yarn.lock
