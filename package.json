@@ -24,7 +24,7 @@
     "predeploy": "yarn run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://philastrio.github.io/hkflix",
+  "homepage": "https://amazing-neumann-2e0689.netlify.com/",
   "browserslist": [
     ">0.2%",
     "not dead",
