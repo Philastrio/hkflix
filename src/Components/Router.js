@@ -1,6 +1,6 @@
 import React from 'react';
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Route,
   Redirect,
   Switch
@@ -16,29 +16,11 @@ export default () => (
     <>
       <Header />
       <Switch>
-        <Route
-          path="https://philastrio.github.io/hkflix/"
-          exact
-          component={Home}
-        />
-        <Route
-          path="https://philastrio.github.io/hkflix/tv"
-          exact
-          component={TV}
-        />
-        <Route
-          path="https://philastrio.github.io/hkflix/search"
-          exact
-          component={Search}
-        />
-        <Route
-          path="https://philastrio.github.io/hkflix/movie/:id"
-          component={Detail}
-        />
-        <Route
-          path="https://philastrio.github.io/hkflix/show/:id"
-          component={Detail}
-        />
+        <Route path="/" exact component={Home} />
+        <Route path="/tv" exact component={TV} />
+        <Route path="/search" exact component={Search} />
+        <Route path="/movie/:id" component={Detail} />
+        <Route path="/show/:id" component={Detail} />
         <Redirect from="*" to="/" />
       </Switch>
     </>
