@@ -30,4 +30,4 @@ Learning React and ES6 by building a Movie Discovery App.
 
 # Preview:
 
-Try it on [netlify](https://hungry-noether-8ac1d6.netlify.com/#/)
+Try it on [netlify] https://amazing-neumann-2e0689.netlify.com
